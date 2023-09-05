@@ -1,28 +1,27 @@
-# SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
-#
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 
-"""CircuitPython Essentials Capacitive Touch on two pins example. Does not work on Trinket M0!"""
 import time
 import board
-import touchio
-import pwmio
-from adafruit_motor import servo
+import adafruit_hcsr04
+import neopixel
 
-# create a PWMOut object on Pin A2.
-pwm = pwmio.PWMOut(board.D9, duty_cycle=2 ** 15, frequency=50)
-
-# Create a servo object, my_servo.
-my_servo = servo.ContinuousServo(pwm)
-
-touch_A1 = touchio.TouchIn(board.A1)  # Not a touch pin on Trinket M0!
-touch_A5 = touchio.TouchIn(board.A5)  # Not a touch pin on Trinket M0!
+NUMPIXELS = 1  # Update this to match the number of LEDs.
+SPEED = 0.05  # Increase to slow down the rainbow. Decrease to speed it up.
+BRIGHTNESS = 1.0  # A number between 0.0 and 1.0, where 0.0 is off, and 1.0 is max.
+PIN = board.NEOPIXEL
+pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
 
 while True:
-    my_servo.throttle = 0.0
-    while touch_A1.value:
-        my_servo.throttle = 1.0
-        time.sleep(.5)
-    while touch_A5.value:
-        my_servo.throttle = -1.0
-        time.sleep(.5)
+    try:
+        print((sonar.distance,))
+        if sonar.distance > 5 and sonar.distance < 20:
+            pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0, 0) 
+        if sonar.distance > 5 and sonar.distance < 20:
+            pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0, 0) 
+        if sonar.distance > 5 and sonar.distance < 20:
+            pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0, 0) 
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)

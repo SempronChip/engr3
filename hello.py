@@ -16,6 +16,10 @@ sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
 while True:
     try:
         print((sonar.distance,))
+        if sonar.distance < 5:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0,0)
+                pixels.show()
         if sonar.distance > 5 and sonar.distance < 20:
             for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
                 pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0, (sonar.distance - 5 / 15 * 255))
@@ -23,7 +27,7 @@ while True:
              
         if sonar.distance > 20 and sonar.distance < 35:
             for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
-                pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0, (sonar.distance - 5 / 15 * 255))
+                pixels[pixel] = ( 0, (sonar.distance - 5 / 15 * 255), 255-(sonar.distance - 5 / 15 * 255))
                 pixels.show()
     except RuntimeError:
         print("Retrying!")

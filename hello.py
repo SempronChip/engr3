@@ -18,7 +18,7 @@ while True:
         print((sonar.distance,))
         if sonar.distance < 5:
             for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
-                pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0,0)
+                pixels[pixel] = (255, 0,0)
                 pixels.show()
         if sonar.distance > 5 and sonar.distance < 20:
             for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
@@ -29,6 +29,10 @@ while True:
             for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
                 pixels[pixel] = ( 0, (sonar.distance - 5 / 15 * 255), 255-(sonar.distance - 5 / 15 * 255))
                 pixels.show()
+        if sonar.distance > 35:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = ( 0, 255, 0)
+                pixels.show()   
     except RuntimeError:
         print("Retrying!")
     time.sleep(0.1)

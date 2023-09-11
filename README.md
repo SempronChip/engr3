@@ -102,7 +102,7 @@ while True:
 ### Evidence
 
 
-https://github.com/SempronChip/engr3/blob/v1/videos/circuitPythonHelloVid.mov
+https://github.com/SempronChip/engr3/blob/6d559f9aeed7ae3236d6e028ebfcbb54ec51c89f/videos/circuitPythonHelloVid.mov
 
 
 Video credit goes to [Gaby D.](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
@@ -170,10 +170,12 @@ Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlyb
 
 ### Wiring
 
-![ServoWiringDiagram]()
+![ServoWiringDiagram](https://github.com/SempronChip/engr3/blob/v1/images/133495354-0ef9219e-2658-4c7b-bef3-01cff6986baf.png?raw=true)
+
+Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
 
 ### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+It wasn't too challanging to complete this assignment.
 
 
 ## CircuitPython_LCD

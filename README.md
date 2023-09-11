@@ -105,37 +105,55 @@ while True:
 https://github.com/SempronChip/engr3/blob/v1/videos/circuitPythonHelloVid.mov
 
 
-And here is how you should give image credit to someone if you use their work:
-
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
-
+Video credit goes to [Gaby D.](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
 
 
 ### Wiring
-Make an account with your Google ID at [tinkercad.com](https://www.tinkercad.com/learn/ circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+
+There is no wiring for this assignment.
 
 ### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+Getting the circuit python setup was difficult, and if I were to do this again I would skip the step of using Mu. Overall, it wasn't hard to complete this assignment because the code was supplied to us and there was no wiring.
 
 
 
 ## CircuitPython_Servo
 
 ### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
-
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
+The goal of this assignment was to wire a servo to move with capacitive touch from two wires. The overall idea was vague, but it wasn't to hard to find and modify two pieces of code from adafruit to achieve our goal.
 
 ```python
-Code goes here
+# SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
 
+"""CircuitPython Essentials Capacitive Touch on two pins example. Does not work on Trinket M0!"""
+import time
+import board
+import touchio
+import pwmio
+from adafruit_motor import servo
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+
+# Create a servo object, my_servo.
+my_servo = servo.ContinuousServo(pwm)
+
+touch_A4 = touchio.TouchIn(board.A4)  # Not a touch pin on Trinket M0!
+touch_A5 = touchio.TouchIn(board.A5)  # Not a touch pin on Trinket M0!
+
+while True:
+    my_servo.throttle = 0.0
+    while touch_A4.value:
+        my_servo.throttle = 1.0
+        time.sleep(.5)
+    while touch_A5.value:
+        my_servo.throttle = -1.0
+        time.sleep(.5)
 ```
 
-**Lastly, please end this section with a link to your code or file.**  
+ 
 
 
 ### Evidence
@@ -151,9 +169,8 @@ Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlyb
 
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+
+![ServoWiringDiagram]()
 
 ### Reflection
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**

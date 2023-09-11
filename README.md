@@ -102,7 +102,7 @@ while True:
 ### Evidence
 
 
-![CircuitPythonHello]()
+![](https://github.com/SempronChip/engr3/blob/v1/videos/circuitPythonHelloVid.mov)
 
 
 And here is how you should give image credit to someone if you use their work:

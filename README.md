@@ -234,13 +234,12 @@ Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlyb
 
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+![](https://github.com/SempronChip/engr3/blob/v1/images/134725601-72db0fcb-0d50-486c-aff5-9e0ec1772057.png?raw=true)
 
+Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
 
 ### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+The table that Mr. H provided helped me greatly in writing the if statements for the neopixels. Otherwise, the project really wasn't that difficult.
 
 
 

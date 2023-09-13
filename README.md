@@ -102,7 +102,7 @@ while True:
 ### Evidence
 
 
-https://github.com/SempronChip/engr3/blob/6d559f9aeed7ae3236d6e028ebfcbb54ec51c89f/videos/circuitPythonHelloVid.mov
+
 
 
 Video credit goes to [Gaby D.](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
@@ -171,22 +171,52 @@ Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlyb
 Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
 
 ### Reflection
-It wasn't too challanging to complete this assignment.
+It wasn't too challanging to complete this assignment, especially when I released that all I needed to do was combine two pieces of code that were availible online.
 
 
-## CircuitPython_LCD
+## CircuitPython_DistanceSensor
 
 ### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
-
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
-
+The goal of this assignment is to make the neopixel change color based on the distances reported by the ultrasonic sensor. This assignment was accomplished by modifying the previous code we had for the neopixel to include the if statements and distance sensor.
 ```python
-Code goes here
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+# SPDX-License-Identifier: MIT
 
+import time
+import board
+import adafruit_hcsr04
+import neopixel
+
+NUMPIXELS = 1  # Update this to match the number of LEDs.
+SPEED = 0.05  # Increase to slow down the rainbow. Decrease to speed it up.
+BRIGHTNESS = 1.0  # A number between 0.0 and 1.0, where 0.0 is off, and 1.0 is max.
+PIN = board.NEOPIXEL
+pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+
+while True:
+    try:
+        print((sonar.distance,))
+        if sonar.distance < 5:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = (255, 0,0)
+                pixels.show()
+        if sonar.distance > 5 and sonar.distance < 20:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0, (sonar.distance - 5 / 15 * 255))
+                pixels.show()
+             
+        if sonar.distance > 20 and sonar.distance < 35:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = ( 0, (sonar.distance - 5 / 15 * 255), 255-(sonar.distance - 5 / 15 * 255))
+                pixels.show()
+        if sonar.distance > 35:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = ( 0, 255, 0)
+                pixels.show()   
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)
 ```
 
 **Lastly, please end this section with a link to your code or file.**  

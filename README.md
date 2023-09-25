@@ -113,7 +113,7 @@ There is no wiring for this assignment.
 ### Reflection
 Getting the circuit python setup was difficult, and if I were to do this again I would skip the step of using Mu. Overall, it wasn't hard to complete this assignment because the code was supplied to us and there was no wiring.
 
-
+---
 
 ## CircuitPython_Servo
 
@@ -169,7 +169,7 @@ Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/ma
 ### Reflection
 It wasn't too challanging to complete this assignment, especially when I released that all I needed to do was combine two pieces of code that were availible online.
 
-
+---
 ## CircuitPython_DistanceSensor
 
 ### Description & Code Snippets
@@ -230,7 +230,7 @@ Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/ma
 ### Reflection
 The table that Mr. H provided helped me greatly in writing the if statements for the neopixels. Otherwise, the project really wasn't that difficult.
 
-
+---
 
 
 
@@ -255,13 +255,12 @@ while True:
 ### Evidence
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+![](https://github.com/SempronChip/engr3/blob/v1/images/IRLB8721%20Motor%20Control.png?raw=true)
+Image credit goes to [Mr. H](https://cvilleschools.instructure.com/courses/40347/assignments/544954)
 ### Reflection
 The hardest part of this assignment was getting the wiring right. Eventhough I had gotten it checked by Mr. Miller, it still wouldn't work. Finally, I got it to work by rewiring a couple times in a couple different ways.
 
-
+---
 
 ## CircuitPython_Photointerrupter
 
@@ -306,7 +305,7 @@ Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/ma
 The code is quite simple when you use the provided time.monotonic(). Personally, I think that every four seconds is too short and I would prefer it to only update when the photointerrupter is interrupted. 
 
 
-
+---
 
 ## NextAssignment
 

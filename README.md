@@ -300,7 +300,8 @@ while True:
 ### Evidence
 
 ### Wiring
-![]()
+![](https://github.com/SempronChip/engr3/blob/v1/images/149255410-87310b2a-6b4f-47cb-8991-7d1b8a96b390.png?raw=true)
+Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
 ### Reflection
 The code is quite simple when you use the provided time.monotonic(). Personally, I think that every four seconds is too short and I would prefer it to only update when the photointerrupter is interrupted. 
 

@@ -1,10 +1,14 @@
 # CircuitPython
 
-## Table of Contents
+## Tab
+le of 
+Contents
 * [Table of Contents](#TableOfContents)
 * [CircuirPython_LED](#CircuitPython_LED)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_Ultrasonic](#CircuitPython_Ultrasonic)
+* [CircuitPython_Motor_Control](#CircuitPython_Motor_Control)
+* [CircuitPython_Photointerrupter](#CircuitPythontor_Control)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
@@ -16,7 +20,7 @@ The goal for this assignment was to get the LED working the same as we could on 
 
 **Lastly, please end this section with a link to your code or file.**  
 ```python
-  # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 
 import time
@@ -230,7 +234,7 @@ The table that Mr. H provided helped me greatly in writing the if statements for
 
 
 
-## Motor Control
+## CircuitPython_Motor_Control
 
 ### Description & Code Snippets
 The code wasn't too hard, as it is only a few lines. This takes the value from the potentiometer and sends it to the motor. 
@@ -259,7 +263,7 @@ The hardest part of this assignment was getting the wiring right. Eventhough I h
 
 
 
-## Photointerrupter
+## CircuitPython_Photointerrupter
 
 ### Description & Code Snippets
 The photointerrupter was quite easy because I remembered how wire it from last year. The code works by counting the number of times the photointerrupter is interrupted and prints this to the console every four seconds.
@@ -296,9 +300,7 @@ while True:
 ### Evidence
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+![]()
 ### Reflection
 The code is quite simple when you use the provided time.monotonic(). Personally, I think that every four seconds is too short and I would prefer it to only update when the photointerrupter is interrupted. 
 

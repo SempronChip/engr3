@@ -102,12 +102,6 @@ while True:
 ### Evidence
 
 
-
-
-
-Video credit goes to [Gaby D.](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
-
-
 ### Wiring
 
 There is no wiring for this assignment.
@@ -158,9 +152,7 @@ while True:
 
 ### Evidence
 
-Here is how you should give image credit to someone if you use their work:
 
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
 
 
 
@@ -223,13 +215,6 @@ while True:
 
 
 ### Evidence
-Pictures / Gifs of your finished work should go here.  You need to communicate what your thing does.
-For making a GIF, I recommend [ezgif.com](https://www.ezgif.com) Remember you can insert pictures using Markdown or HTML to insert an image.
-
-
-And here is how you should give image credit to someone if you use their work:
-
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
 
 
 

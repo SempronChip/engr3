@@ -1,38 +1,24 @@
-# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
-# SPDX-License-Identifier: MIT
-
+from digitalio import DigitalInOut, Direction, Pull
 import time
 import board
-import adafruit_hcsr04
-import neopixel
+initial = time.monotonic()
+interrupter = DigitalInOut(board.D7)
+interrupter.direction = Direction.INPUT
+interrupter.pull = Pull.UP
 
-NUMPIXELS = 1  # Update this to match the number of LEDs.
-SPEED = 0.05  # Increase to slow down the rainbow. Decrease to speed it up.
-BRIGHTNESS = 1.0  # A number between 0.0 and 1.0, where 0.0 is off, and 1.0 is max.
-PIN = board.NEOPIXEL
-pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
-sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+counter = 0
+
+photo = False
+state = False
 
 while True:
-    try:
-        print((sonar.distance,))
-        if sonar.distance < 5:
-            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
-                pixels[pixel] = (255, 0,0)
-                pixels.show()
-        if sonar.distance > 5 and sonar.distance < 20:
-            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
-                pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0, (sonar.distance - 5 / 15 * 255))
-                pixels.show()
-             
-        if sonar.distance > 20 and sonar.distance < 35:
-            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
-                pixels[pixel] = ( 0, (sonar.distance - 5 / 15 * 255), 255-(sonar.distance - 5 / 15 * 255))
-                pixels.show()
-        if sonar.distance > 35:
-            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
-                pixels[pixel] = ( 0, 255, 0)
-                pixels.show()   
-    except RuntimeError:
-        print("Retrying!")
+    photo = interrupter.value
+    if photo and not state:
+            counter += 1
+    state = photo
+
+    now = time.monotonic()
+    if now - initial >= 4:
+        print("Interrupts:", str(counter))
+        initial = now 
     time.sleep(0.1)

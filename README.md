@@ -230,6 +230,81 @@ The table that Mr. H provided helped me greatly in writing the if statements for
 
 
 
+## Motor Control
+
+### Description & Code Snippets
+The code wasn't too hard, as it is only a few lines. This takes the value from the potentiometer and sends it to the motor. 
+
+```python
+import board
+import analogio
+
+motor = analogio.AnalogOut(board.A0)
+pot = analogio.AnalogIn(board.A1)
+while True:
+    speed = pot.value
+    motor.value = speed
+```
+
+**Lastly, please end this section with a link to your code or file.**  
+
+### Evidence
+
+### Wiring
+[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
+For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
+Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+### Reflection
+The hardest part of this assignment was getting the wiring right. Eventhough I had gotten it checked by Mr. Miller, it still wouldn't work. Finally, I got it to work by rewiring a couple times in a couple different ways.
+
+
+
+## Photointerrupter
+
+### Description & Code Snippets
+The photointerrupter was quite easy because I remembered how wire it from last year. The code works by counting the number of times the photointerrupter is interrupted and prints this to the console every four seconds.
+
+```python
+from digitalio import DigitalInOut, Direction, Pull
+import time
+import board
+initial = time.monotonic()
+interrupter = DigitalInOut(board.D7)
+interrupter.direction = Direction.INPUT
+interrupter.pull = Pull.UP
+
+counter = 0
+
+photo = False
+state = False
+
+while True:
+    photo = interrupter.value
+    if photo and not state:
+            counter += 1
+    state = photo
+
+    now = time.monotonic()
+    if now - initial >= 4:
+        print("Number of interrupts:", str(counter))
+        initial = now 
+    time.sleep(0.1)
+```
+
+**Lastly, please end this section with a link to your code or file.**  
+
+### Evidence
+
+### Wiring
+[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
+For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
+Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+### Reflection
+The code is quite simple when you use the provided time.monotonic(). Personally, I think that every four seconds is too short and I would prefer it to only update when the photointerrupter is interrupted. 
+
+
+
+
 ## NextAssignment
 
 ### Description & Code Snippets

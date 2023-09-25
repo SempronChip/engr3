@@ -19,6 +19,6 @@ while True:
 
     now = time.monotonic()
     if now - initial >= 4:
-        print("Interrupts:", str(counter))
+        print("Number of interrupts:", str(counter))
         initial = now 
     time.sleep(0.1)

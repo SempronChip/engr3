@@ -233,7 +233,6 @@ The table that Mr. H provided helped me greatly in writing the if statements for
 ---
 
 
-
 ## CircuitPython_Motor_Control
 
 ### Description & Code Snippets
@@ -332,3 +331,47 @@ For example, I use an Arduino Uno to represent my Circuitpython device but write
 Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
 ### Reflection
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+
+## Onshape_Assignment_Template
+
+
+## Hanger
+### Assignment Description
+
+The goal of this assignment was to follow the design documents to make a hanger with a mass matching the specified mass when it is the specified material.
+
+### Evidence
+
+![](https://github.com/SempronChip/engr3/blob/v1/images/hanger1.PNG?raw=true)
+![](https://github.com/SempronChip/engr3/blob/v1/images/hanger2.PNG?raw=true)
+![](https://github.com/SempronChip/engr3/blob/v1/images/hanger3.PNG?raw=true)
+
+### Part Link 
+
+[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/8057ebd5d9b38c8f2430aecc/w/067bc3ddabf178a107c83aec/e/69e7dbda5d55beacc3def062?renderMode=0&uiState=65318020be43fe7ca907add7)
+
+### Reflection
+
+After a whole summer using Fusion 360, I was surprised at how unintuitive onshape is. However, once I got acclimated to the oddities of onshape I was able to complete this assignment with ease.
+
+&nbsp;
+
+## Swing Arm
+
+### Assignment Description
+
+The goal of this assignment was to recreate the part detailed in the design documents. The difference being this assignment had variables for certain values which would need to be changed in the second step. These variables would also change the mass of part for the second step. 
+
+### Evidence
+
+
+
+### Part Link 
+
+[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;

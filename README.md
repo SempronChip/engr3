@@ -106,6 +106,10 @@ while True:
 ### Evidence
 
 
+https://github.com/SempronChip/engr3/assets/143545309/e74b0bae-ce39-4a23-b4f0-3eb728cfd7ae
+
+
+
 ### Wiring
 
 There is no wiring for this assignment.
@@ -252,6 +256,10 @@ while True:
 **Lastly, please end this section with a link to your code or file.**  
 
 ### Evidence
+
+
+https://github.com/SempronChip/engr3/assets/143545309/15a4333c-a8c2-4cba-8b52-bf43765f76a8
+
 
 ### Wiring
 ![](https://github.com/SempronChip/engr3/blob/v1/images/IRLB8721%20Motor%20Control.png?raw=true)

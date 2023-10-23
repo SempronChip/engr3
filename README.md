@@ -1,8 +1,6 @@
 # CircuitPython
 
-## Tab
-le of 
-Contents
+## Table of Contents
 * [Table of Contents](#TableOfContents)
 * [CircuirPython_LED](#CircuitPython_LED)
 * [CircuitPython_Servo](#CircuitPython_Servo)
@@ -10,7 +8,8 @@ Contents
 * [CircuitPython_Motor_Control](#CircuitPython_Motor_Control)
 * [CircuitPython_Photointerrupter](#CircuitPythontor_Control)
 * [NextAssignmentGoesHere](#NextAssignment)
-* [Hanger]
+* [Hanger](#hanger)
+* [Swing Arm](#swing-arm)
 ---
 
 ## CircuitPython_LED
@@ -304,35 +303,6 @@ Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/ma
 ### Reflection
 The code is quite simple when you use the provided time.monotonic(). Personally, I think that every four seconds is too short and I would prefer it to only update when the photointerrupter is interrupted. 
 
-
----
-
-## NextAssignment
-
-### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
-
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
-
-```python
-Code goes here
-
-```
-
-**Lastly, please end this section with a link to your code or file.**  
-
-### Evidence
-
-### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
-### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
-
 ---
 ## Onshape_Assignments
 
@@ -350,7 +320,8 @@ The goal of this assignment was to follow the design documents to make a hanger 
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/8057ebd5d9b38c8f2430aecc/w/067bc3ddabf178a107c83aec/e/69e7dbda5d55beacc3def062?renderMode=0&uiState=65318020be43fe7ca907add7)
+[Part link](https://cvilleschools.onshape.com/documents/8057ebd5d9b38c8f2430aecc/w/067bc3ddabf178a107c83aec/e/69e7dbda5d55beacc3def062?renderMode=0&uiState=65318020be43fe7ca907add7)
+
 
 ### Reflection
 
@@ -364,16 +335,16 @@ After a whole summer using Fusion 360, I was surprised at how unintuitive onshap
 The goal of this assignment was to recreate the part detailed in the design documents. The difference being this assignment had variables for certain values which would need to be changed in the second step. These variables would also change the mass of part for the second step. 
 
 ### Evidence
-![]()
-![]()
+![](https://github.com/SempronChip/engr3/blob/v1/images/swing%20arm2.PNG?raw=true)
+![](https://github.com/SempronChip/engr3/blob/v1/images/swing%20arm1.PNG?raw=true)
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Part Link](https://cvilleschools.onshape.com/documents/560705bc2a50c2e2a6ef6800/w/fe33308f69e8a464a53700c8/e/09e967bfbe2ea9cb0f361a7d?renderMode=0&uiState=6536c69cea508a73f24262ce)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+The swing arm wasn't very hard for me once I got the first sketch correct, as many problems can arise from the varibles if you don't make the first sketch correctly. I ended up helping numerous people complete the assignment when they ran into problems as well.
 
 ---
 

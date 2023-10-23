@@ -10,6 +10,7 @@ Contents
 * [CircuitPython_Motor_Control](#CircuitPython_Motor_Control)
 * [CircuitPython_Photointerrupter](#CircuitPythontor_Control)
 * [NextAssignmentGoesHere](#NextAssignment)
+* [Hanger]
 ---
 
 ## CircuitPython_LED
@@ -332,7 +333,8 @@ Then post an image here.   [Here's a quick tutorial for all markdown code, like 
 ### Reflection
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
 
-## Onshape_Assignment_Template
+---
+## Onshape_Assignments
 
 
 ## Hanger
@@ -354,8 +356,7 @@ The goal of this assignment was to follow the design documents to make a hanger 
 
 After a whole summer using Fusion 360, I was surprised at how unintuitive onshape is. However, once I got acclimated to the oddities of onshape I was able to complete this assignment with ease.
 
-&nbsp;
-
+---
 ## Swing Arm
 
 ### Assignment Description
@@ -363,8 +364,8 @@ After a whole summer using Fusion 360, I was surprised at how unintuitive onshap
 The goal of this assignment was to recreate the part detailed in the design documents. The difference being this assignment had variables for certain values which would need to be changed in the second step. These variables would also change the mass of part for the second step. 
 
 ### Evidence
-
-
+![]()
+![]()
 
 ### Part Link 
 
@@ -373,5 +374,7 @@ The goal of this assignment was to recreate the part detailed in the design docu
 ### Reflection
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+---
 
 &nbsp;

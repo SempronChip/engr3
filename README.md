@@ -163,6 +163,10 @@ while True:
 
 
 
+https://github.com/SempronChip/engr3/assets/143545309/1ec9ff0a-86fa-490e-8872-825861b4730b
+Credit goes to Chris
+
+
 
 ### Wiring
 
@@ -224,6 +228,10 @@ while True:
 
 ### Evidence
 
+
+
+https://github.com/SempronChip/engr3/assets/143545309/ccb16e40-9ffd-4550-babf-442d1a91b850
+Credit goes to Chris
 
 
 ### Wiring

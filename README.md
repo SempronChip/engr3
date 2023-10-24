@@ -171,10 +171,7 @@ Credit goes to Chris
 
 ### Wiring
 
-![277456149-4862d20c-f2ed-4b43-95a4-555abaf82cd6](https://github.com/SempronChip/engr3/assets/143545309/6fb0ca37-a0aa-448e-a162-6938d98fd2b8)
 
-
-Image credit goes to [Raffi Chen](https://github.com/Raffi-Chen/engr3)
 
 ### Reflection
 It wasn't too challanging to complete this assignment, especially when I released that all I needed to do was combine two pieces of code that were availible online.
@@ -242,7 +239,7 @@ Credit goes to Chris
 Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
 
 ### Reflection
-The table that Mr. H provided helped me greatly in writing the if statements for the neopixels. Otherwise, the project really wasn't that difficult.
+The table that Mr. H provided helped me greatly in writing the if statements for the neopixels. Otherwise, the project really wasn't that difficult and I was able to complete it quite easily.
 
 ---
 
@@ -273,8 +270,10 @@ Credit goes to Chris
 
 
 ### Wiring
-![](https://github.com/SempronChip/engr3/blob/v1/images/IRLB8721%20Motor%20Control.png?raw=true)
-Image credit goes to [Mr. H](https://cvilleschools.instructure.com/courses/40347/assignments/544954)
+![277456149-4862d20c-f2ed-4b43-95a4-555abaf82cd6](https://github.com/SempronChip/engr3/assets/143545309/6fb0ca37-a0aa-448e-a162-6938d98fd2b8)
+
+
+Image credit goes to [Raffi Chen](https://github.com/Raffi-Chen/engr3)
 ### Reflection
 The hardest part of this assignment was getting the wiring right. Eventhough I had gotten it checked by Mr. Miller, it still wouldn't work. Finally, I got it to work by rewiring a couple times in a couple different ways.
 

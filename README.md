@@ -171,9 +171,10 @@ Credit goes to Chris
 
 ### Wiring
 
-![ServoWiringDiagram](https://github.com/SempronChip/engr3/blob/v1/images/133495354-0ef9219e-2658-4c7b-bef3-01cff6986baf.png?raw=true)
+![277456149-4862d20c-f2ed-4b43-95a4-555abaf82cd6](https://github.com/SempronChip/engr3/assets/143545309/6fb0ca37-a0aa-448e-a162-6938d98fd2b8)
 
-Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
+
+Image credit goes to [Raffi Chen]()
 
 ### Reflection
 It wasn't too challanging to complete this assignment, especially when I released that all I needed to do was combine two pieces of code that were availible online.

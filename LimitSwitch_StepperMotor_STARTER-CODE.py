@@ -1,4 +1,3 @@
-
 """
 Engineering 3 
 Limit Switch + Stepper Motor STARTER CODE
@@ -67,5 +66,3 @@ async def main():
         await asyncio.gather(interrupt_task, motor_task)
 
 asyncio.run(main())
-LimitSwitch_StepperMotor_STARTER-CODE.py
-Displaying LimitSwitch_StepperMotor_STARTER-CODE.py.

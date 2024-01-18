@@ -9,5 +9,6 @@
     "circuitpython.board.pid": "0x8038",
     "python.analysis.extraPaths": [
         "./lib"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }

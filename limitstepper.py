@@ -40,29 +40,23 @@ async def catch_pin_transitions(pin):
             if event:
                 if event.pressed:
                     print("Limit Switch was pressed.")
-                    # FILL THIS IN: MAKE THE MOTOR ARM SPIN BACKWARDS. 
-                
-
+                    for step in range(STEPS):
+                        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+                        time.sleep(DELAY)
                 elif event.released:
                     print("Limit Switch was released.")
             await asyncio.sleep(0)
 
 async def run_motor():
     while(True):
-        # FILL THIS IN: 
-        # MAKE THE MOTOR SPIN FORWARD.
-
-
-            await asyncio.sleep(0)
+        motor.onestep(style=stepper.DOUBLE)
+        time.sleep(DELAY)
+        await asyncio.sleep(0)
 
 async def main():
     while(True):
         interrupt_task = asyncio.create_task(catch_pin_transitions(board.D2))
-
-        # FILL THIS IN: 
-        # CREATE ANOTHER TASK CALLED: motor_task.
-        # USE asyncio.create_task() to call the run_motor() function you wrote.
-
+        motor_task = asyncio.create_task(run_motor())
         await asyncio.gather(interrupt_task, motor_task)
 
 asyncio.run(main())

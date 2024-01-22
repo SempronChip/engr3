@@ -6,7 +6,7 @@
             "type": "f5anything",
             "request": "launch",
             "command": "Copy-Item -Path \"${file}\" -Destination \"D:\\code.py\";robocopy ${workspaceFolder}\\lib D:\\lib * /xf .* /xd .* /mir /xo /im",
-            "showTerminal": true,
+            "showTerminal": false,
             "terminalName": "Code Uploader"
         }
     ]

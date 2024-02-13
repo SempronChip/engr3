@@ -374,7 +374,9 @@ The swing arm wasn't very hard for me once I got the first sketch correct, as ma
 The goal of this assignment was to create a robot arm that could function with one actuator and could be animated in onshape. In addition, a bill of materials needed to be created that depicted the named parts. 
 
 ### Evidence
-
+![](https://github.com/SempronChip/engr3/blob/3b37db9194ab76754ea50a50e871ed8d5153c0e2/images/gripperView1.PNG)
+![](https://github.com/SempronChip/engr3/blob/3b37db9194ab76754ea50a50e871ed8d5153c0e2/images/ezgif.com-video-to-gif-converter.gif)
+![](https://github.com/SempronChip/engr3/blob/3b37db9194ab76754ea50a50e871ed8d5153c0e2/images/bom.PNG)
 ### Part Link 
 
 [Part Link](https://cvilleschools.onshape.com/documents/c487340cfe2371c24836f18d/w/8b0571f6a2cf9f4be29b6a26/e/dcde9d44d2c86d2fafb08966?renderMode=0&uiState=65cbc4ea52a1742c99078fe2)

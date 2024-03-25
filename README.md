@@ -427,18 +427,39 @@ I origninally struggled with getting the mates between the part to match the int
 
 ### Assignment Description
 
+The goal of this assignment was to create a menu-controlled traffic light using an arduino, rotary encoder, and the onboard neopixel. The menu needed to have items for stop, go, and caution and be able to switch to the corresponding light color on the neopixel.
 
 ### Evidence
 
-### Part Link 
-
-[Part Link](https://cvilleschools.onshape.com/documents/4ad6c147d972284340a55101/w/b63db74e90ddff8caad7b651/e/bb2b58a578fe3bf00d50f4c3)
+### Code
 
 
+### Reflection
+
+This assignment was the product of a collaborative effort between me and Asher. This allowed us to hammer out this assignment in the course of one class, but we did run into a few problems with the method for tracking the location of the rotary encoder. I found it very interesting that this assingment was a repeat from last year, but written in circuit python instead of arduino code.
 
 ---
 
 &nbsp;
+## Code - Stepper Motor + Limit Switch
+
+### Assignment Description
+
+The goal of this assignment was to 
+
+### Evidence
+
+### Code
+
+
+### Reflection
+
+This assignment was the product of a collaborative effort between me and Asher. This allowed us to hammer out this assignment in the course of one class, but we did run into a few problems with the method for tracking the location of the rotary encoder. I found it very interesting that this assingment was a repeat from last year, but written in circuit python instead of arduino code.
+
+---
+
+&nbsp;
+
 ## Grabber
 
 ### Assignment Description

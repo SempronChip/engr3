@@ -362,7 +362,7 @@ The goal of this assignment was to recreate the part detailed in the design docu
 
 ### Reflection
 
-The swing arm wasn't very hard for me once I got the first sketch correct, as many problems can arise from the varibles if you don't make the first sketch correctly. I ended up helping numerous people complete the assignment when they ran into problems as well.
+The swing arm wasn't very hard for me once I got the first sketch correct, as many problems can arise from the variables if you don't make the first sketch correctly. I ended up helping numerous people complete the assignment when they ran into problems as well.
 
 ---
 
@@ -371,7 +371,7 @@ The swing arm wasn't very hard for me once I got the first sketch correct, as ma
 
 ### Assignment Description
 
-The goal of this assignment was to create a V-Block based on the given drawings. Then one would modify the part based on the instructions, in order to produce a part with the desired ms
+The goal of this assignment was to create a V-Block based on the given drawings. Then one would modify the part based on the instructions, to produce a part with the desired ms
 
 ### Evidence
 
@@ -400,7 +400,7 @@ The goal of this assignment to create a cylinder assembly using multiple parts w
 
 ### Reflection
 
-The first part of this assignment was relatively easy, as constructing the parts from their shared geometry was simple. However, I would run into trouble in the next drawings because the way that I constructed the parts in the first drawings didn't allow me to make the changes I needed to make in the subsequent drawings. Overall, this assignment was important for me to understand that I need to design the parts the most effient way the first time so I don't have to go back and make changes.
+The first part of this assignment was relatively easy, as constructing the parts from their shared geometry was simple. However, I would run into trouble in the next drawings because the way that I constructed the parts in the first drawings didn't allow me to make the changes I needed to make in the subsequent drawings. Overall, this assignment was important for me to understand that I need to design the parts the most efficient way the first time so I don't have to go back and make changes.
 
 ---
 
@@ -418,7 +418,7 @@ The goal of this assignment to assemble a locking plier assembly to match the dr
 
 ### Reflection
 
-I origninally struggled with getting the mates between the part to match the intended ones. However, I eventually reached a solution that producted the desired results, only to find out in later parts that it wasn't the correct mates. Overall, this assignment was very important for understanding how to use mates to produce the desired interactions between parts.
+I originally struggled with getting the mates between the parts to match the intended ones. However, I eventually reached a solution that produced the desired results, only to find out in later parts that it wasn't the correct mate. Overall, this assignment was very important for understanding how to use mates to produce the desired interactions between parts.
 
 ---
 
@@ -427,7 +427,7 @@ I origninally struggled with getting the mates between the part to match the int
 
 ### Assignment Description
 
-The goal of this assignment was to create a menu-controlled traffic light using an arduino, rotary encoder, and the onboard neopixel. The menu needed to have items for stop, go, and caution and be able to switch to the corresponding light color on the neopixel.
+This assignment aimed to create a menu-controlled traffic light using an Arduino, rotary encoder, and the onboard neopixel. The menu needed to have items for stop, go, and caution and be able to switch to the corresponding light color on the neopixel.
 
 ### Evidence
 
@@ -436,7 +436,7 @@ The goal of this assignment was to create a menu-controlled traffic light using 
 
 ### Reflection
 
-This assignment was the product of a collaborative effort between me and Asher. This allowed us to hammer out this assignment in the course of one class, but we did run into a few problems with the method for tracking the location of the rotary encoder. I found it very interesting that this assingment was a repeat from last year, but written in circuit python instead of arduino code.
+This assignment was the product of a collaborative effort between me and Asher. This allowed us to hammer out this assignment in the course of one class, but we did run into a few problems with the method for tracking the location of the rotary encoder. I found it very interesting that this assignment was a repeat from last year, but written in circuit Python instead of Arduino code.
 
 ---
 
@@ -454,7 +454,7 @@ The goal of this assignment was to
 
 ### Reflection
 
-This assignment was the product of a collaborative effort between me and Asher. This allowed us to hammer out this assignment in the course of one class, but we did run into a few problems with the method for tracking the location of the rotary encoder. I found it very interesting that this assingment was a repeat from last year, but written in circuit python instead of arduino code.
+This assignment was the product of a collaborative effort between me and Asher. This allowed us to hammer out this assignment in the course of one class, but we did run into a few problems with the method for tracking the location of the rotary encoder. I found it very interesting that this assignment was a repeat from last year, but written in circuit Python instead of Arduino code.
 
 ---
 

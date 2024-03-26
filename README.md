@@ -319,7 +319,7 @@ while True:
 ![](https://github.com/SempronChip/engr3/blob/v1/images/149255410-87310b2a-6b4f-47cb-8991-7d1b8a96b390.png?raw=true)
 Image credit goes to [Gaby D](https://github.com/gdaless20/Circuitpython/blob/main/README.md)
 ### Reflection
-The code is quite simple when you use the provided time.monotonic(). Personally, I think that every four seconds is too short and I would prefer it to only update when the photointerrupter is interrupted. 
+The code is quite simple when you use the provided time.monotonic(). Personally, I think that every four seconds is too short and I would prefer it to only update when the photo interrupter is interrupted. 
 
 ---
 ## Onshape_Assignments
@@ -394,7 +394,7 @@ The part was very easy to create using the documents and was a good reintroducti
 
 ### Assignment Description
 
-The goal of this assignment to create a cylinder assembly using multiple parts within one studio. This was important for practicing how to make multiple parts from their shared dimensions.
+The goal of this assignment is to create a mic stand using multiple parts in one studio. This was an important introduction to making multiple parts in one studio instead of multiple different studios which don't have any shared dimensions.
 
 ### Evidence
 
@@ -408,7 +408,7 @@ The goal of this assignment to create a cylinder assembly using multiple parts w
 
 ### Reflection
 
-The first part of this assignment was relatively easy, as constructing the parts from their shared geometry was simple. However, I would run into trouble in the next drawings because the way that I constructed the parts in the first drawings didn't allow me to make the changes I needed to make in the subsequent drawings. Overall, this assignment was important for me to understand that I need to design the parts the most efficient way the first time so I don't have to go back and make changes.
+This assignment was simple to make the first time through. However, for the second drawing, I realized that my base was incorrectly dimensioned and I had to go back and redo the sketches for the base. After redoing the sketch I realized that my original mass was slightly off from the actual mass, so I had designed the part incorrectly the first time.
 
 ---
 

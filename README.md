@@ -463,6 +463,9 @@ This assignment aimed to create a menu-controlled traffic light using an Arduino
 
 ### Evidence
 
+### Wiring Diagram
+![](images/Rotaryencoder.PNG)
+
 ### Code
 ```python
 # Rotary Encodare light thingksf;ja             # [lines 1-7] Import and set up neccesary libraries
@@ -539,6 +542,9 @@ This assignment was the product of a collaborative effort between me and Asher. 
 The goal of this assignment was to program a stepper motor to rotate until it touches the limit switch and then rotate 180 degrees in reverse when it contacts with the motor arm. This assignment was important as it teaches one to use the stepper motor which will come in handy for the robot arm project.
 
 ### Evidence
+
+### Wiring Diagram
+![](images/Steppermotor.jpeg)
 
 ### Code
 ```python

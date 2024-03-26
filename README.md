@@ -375,6 +375,10 @@ The goal of this assignment was to create a V-Block based on the given drawings.
 
 ### Evidence
 
+![](images/O'NeillRossouwJ_20240326_ENGR_0006.png)
+![](images/O'NeillRossouwJ_20240326_ENGR_0007.png)
+![](images/O'NeillRossouwJ_20240326_ENGR_0008.png)
+
 ### Part Link 
 
 [Part Link](https://cvilleschools.onshape.com/documents/d1887646d8bd37cf0571a8e1/w/c4f78c61437348b9a080d421/e/01c05bfbd124e63968bffdd8)
@@ -394,6 +398,10 @@ The goal of this assignment to create a cylinder assembly using multiple parts w
 
 ### Evidence
 
+![](images/O'NeillRossouwJ_20240326_ENGR_0004.png)
+![](images/O'NeillRossouwJ_20240326_ENGR_0005.png)
+
+
 ### Part Link 
 
 [Part Link](https://cvilleschools.onshape.com/documents/9b2602dc4f0b56b5cc27ce6a/w/ebcd7ead231ea9063dc1c773/e/4228cf218bf42de18b0073d8)
@@ -412,6 +420,10 @@ The first part of this assignment was relatively easy, as constructing the parts
 The goal of this assignment to assemble a locking plier assembly to match the drawings with the provided parts. This assignment was an important practice for assembling the parts so that they can interact in their intended way.
 ### Evidence
 
+![](images/O'NeillRossouwJ_20240326_ENGR_0000.png)
+![](images/O'NeillRossouwJ_20240326_ENGR_0001.png)
+![](images/O'NeillRossouwJ_20240326_ENGR_0002.png)
+
 ### Part Link 
 
 [Part Link](https://cvilleschools.onshape.com/documents/4ad6c147d972284340a55101/w/b63db74e90ddff8caad7b651/e/bb2b58a578fe3bf00d50f4c3)
@@ -422,6 +434,26 @@ I originally struggled with getting the mates between the parts to match the int
 
 ---
 
+&nbsp;
+## CAD - Onshape Multi-Part
+
+### Assignment Description
+
+The goal of this assignment to create a cylinder assembly using multiple parts within one studio. This was important for practicing how to make multiple parts from their shared dimensions.
+
+### Evidence
+
+![](images/O'NeillRossouwJ_20240326_ENGR_0009.png)
+![](images/O'NeillRossouwJ_20240326_ENGR_0010.png)
+![](images/O'NeillRossouwJ_20240326_ENGR_0011.png)
+
+### Part Link 
+
+[Part Link](https://cvilleschools.onshape.com/documents/9b2602dc4f0b56b5cc27ce6a/w/ebcd7ead231ea9063dc1c773/e/4228cf218bf42de18b0073d8)
+
+### Reflection
+
+The first part of this assignment was relatively easy, as constructing the parts from their shared geometry was simple. However, I would run into trouble in the next drawings because the way that I constructed the parts in the first drawings didn't allow me to make the changes I needed to make in the subsequent drawings. Overall, this assignment was important for me to understand that I need to design the parts the most efficient way the first time so I don't have to go back and make changes.
 &nbsp;
 ## Code - Rotary Encoder + LCD
 

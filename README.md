@@ -464,7 +464,7 @@ This assignment aimed to create a menu-controlled traffic light using an Arduino
 ### Evidence
 
 ### Wiring Diagram
-![](images/Rotaryencoder.PNG)
+
 
 ### Code
 ```python
